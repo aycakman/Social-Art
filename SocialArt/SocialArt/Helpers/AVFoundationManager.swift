@@ -100,7 +100,6 @@ extension AVFoundationManager: AVCapturePhotoCaptureDelegate {
     func photoOutput(_ output: AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVCapturePhoto, error: Error?) {
         guard let imageData = photo.fileDataRepresentation(), let previewImage = UIImage(data: imageData) else { return }
        
-       // UserDefaults.standard.setValue(imageData, forKey: "image")
         capturedImage = previewImage
         delegate?.didFinishProcessingPhoto(image: previewImage)
     }
