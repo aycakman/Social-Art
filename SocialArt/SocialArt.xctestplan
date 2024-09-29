@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "EABA62B7-7151-4941-A45E-9529D8F6A258",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SocialArt.xcodeproj",
+      "identifier" : "11A525FB2ADAF02600F1A44D",
+      "name" : "SocialArt"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:SocialArt.xcodeproj",
+        "identifier" : "11A526112ADAF02800F1A44D",
+        "name" : "SocialArtTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:SocialArt.xcodeproj",
+        "identifier" : "11A5261B2ADAF02800F1A44D",
+        "name" : "SocialArtUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
